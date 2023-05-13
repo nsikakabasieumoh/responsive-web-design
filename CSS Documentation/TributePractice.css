@@ -1,0 +1,8 @@
+body {
+    background-color: white;
+    padding: 20px;
+
+    /* Recommeded font sizes: 16 - 18. 20 for a text-heavy site */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

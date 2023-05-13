@@ -14,14 +14,19 @@ In this section, I will outline the resources used for this in project.
 ### Codes and Resources Used
 
 - **Editor Used:**  Visual Studio Code
-- **Python Version:** Python 3.11.2
+- **HTML Version:** HTML 5
+- **CSS Version** CSS 3
 
 ## Code Structure
 
 ```bash
+├── CSS Documentation
+├── Practice
+│   └── Tribute.html
+├── Resources
 ├── Survey Form
 │   ├── CatPhoto.html
-│   ├── Lorem Ipsum
+│   ├── CamperCafe.html
 │   └── Lorem Ipsum
 ├── Tribute Page
 │   ├── Lorem Ipsum

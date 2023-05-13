@@ -1,8 +1,88 @@
+/* Colors
+Cinder: #140D16 -> use for font color & Hero Section bkg
+Contessa: #C07D6B -> use for botton & link
+Rum: #796E8B
+Boulder: #7C7C7C
+*/
+
 body {
     background-color: white;
-    padding: 20px;
+    margin: 0;
 
     /* Recommeded font sizes: 16 - 18. 20 for a text-heavy site */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    color: #7C7C7C;
+}
+
+h1, h2{
+    color: #140D16;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    width: calc(440px + 685px + 50px);
+    padding: 50px;
+    margin: 0 auto;
+}
+
+a {
+    color: #796E8B;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a:hover {
+    color: #C07D6B;
+}
+
+/* Hero */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 440px;
+    column-gap: 50px;
+    position: relative;
+}
+
+.hero-grid-div{
+    height: 600px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+
+    /* Fit an image use: fill, none, cover, contain*/
+    object-fit: cover;
+    overflow: hidden;
+
+    /* Postioning in div*/
+}
+
+.hero h1{
+    font-size: 130px;
+    margin: 0;
+}
+
+.hero p, .hero a {
+    margin-left: 10px;
+}
+
+.hero p{
+    max-width: 630px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.social-media {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 620px;
+}
+
+.social-media img {
+    width: auto;
+    height: 30px;
+    fill: #796E8B;
 }

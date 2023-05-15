@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.marker {
+    height: 25px;
+    width: 200px;
+
+    /* to center an object, set margin to auto
+    margin can take two inputs. The first for top and bottom.
+    The second for left and right */
+    margin: 10px auto;
+}
+
+/* 
+1. rgb (red value, green value, blue value) 
+   0 is minimum, while 255 is maximum
+2. hex colors is a range [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F]
+   00 is minimum, while FF is maximum
+3. hsl(hue, saturation, lightness)
+*/
+
+.red {
+    background: linear-gradient(90deg, rgb(255, 0, 0) 75%, rgb(0, 255, 0),
+    rgb(0, 0, 255));
+}
+
+.green {
+    background-color: #007f00;
+}
+
+.blue {
+    background-color: hsl(240, 100%, 50%);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+}

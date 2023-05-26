@@ -9,3 +9,12 @@ body {
     background-color: #1b1b32;
     color: #f5f6f7;
 }
+
+label {
+    /* 
+    rem stands for root em. Is relative to the font size of the html element
+    display: block; makes elements appear on separate lines
+    */
+    display: block;
+    margin: 0.5rem 0;
+}
